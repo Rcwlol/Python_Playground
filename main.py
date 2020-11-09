@@ -17,6 +17,5 @@ while notDone:
         newlist.append(user_input)
 
 else:
-    #print(len(newlist))
-    print(newlist[random.randint(0,len(newlist)-1)])
     print("Thank you for letting us decide")
+    print("Here is our choice: "+newlist[random.randint(0,len(newlist)-1)])
